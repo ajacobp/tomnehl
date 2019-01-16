@@ -1,0 +1,11 @@
+
+.paragraph--type--slide,
+.paragraph--type--slideshow {
+  display: none;
+  @include breakpoint($sm-plus, true) {
+    display: block;
+  }
+  img {
+    margin: 0 auto;
+  }
+}
