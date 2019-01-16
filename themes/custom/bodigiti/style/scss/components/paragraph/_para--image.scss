@@ -3,3 +3,20 @@ figure + .paragraph--type--tab-anchor {
   margin-top: 2rem;
 }
 
+// So anchor is only as wide as image
+.paragraph.image-lg,
+.paragraph.image-med,
+.paragraph.image-med-left-text-right,
+.paragraph.image-med-right-text-left,
+.paragraph.image-med-float-right-text-left,
+.paragraph.image-med-float-left-text-right,
+.paragraph.image-sm,
+.paragraph.image-sm-left-text-right,
+.paragraph.image-sm-right-text-left,
+.paragraph.image-xs-left-text-right {
+  a, wrap-image, picture {
+    display: inline-block;
+  }
+}
+
+
