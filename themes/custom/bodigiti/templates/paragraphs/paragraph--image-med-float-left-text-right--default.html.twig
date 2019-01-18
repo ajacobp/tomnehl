@@ -44,16 +44,5 @@ set classes = [
 ]
 %}
 <div{{ attributes.addClass(classes) }}>
-  {% if content.field_title %}
-    {{ content.field_title }}
-  {% endif %}
-  <div class="body">
-    <figure class="image">{{ content.field_image }}
-      {# field_caption see field template #}  
-      {% if content.field_caption %}
-        {{ content.field_caption }}
-      {% endif %}
-    </figure>
-    {{ content.field_body }}
-  </div>
+  {{ content }}
 </div>
