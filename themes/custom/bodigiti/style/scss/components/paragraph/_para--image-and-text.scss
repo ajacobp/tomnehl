@@ -14,6 +14,9 @@
       margin-top: 0;
     }
   }
+  .image {
+    margin-bottom: 1rem; // so first-of-type allows space between image and/or caption
+  }
   &.paragraph {
     margin: 4rem auto;
   }

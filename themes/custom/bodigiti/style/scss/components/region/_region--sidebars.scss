@@ -47,7 +47,7 @@
     font-weight: $font-weight-black;
   }
   .content {
-    padding: 0 2rem 2rem 2rem;;
+    padding: 0 2rem;;
   }
   p, li {
     @include font-size-only($font-base);
@@ -58,7 +58,7 @@
     margin-top: 0;
   }
   .paragraph.image-xs-left-text-right {
-    margin: -1rem 0;
+    margin: 1rem 0;
   }
 }
 
